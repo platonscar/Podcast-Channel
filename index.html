@@ -25,9 +25,9 @@
         <nav>
             <ul>
                 <li> <a href="#episodes">EPISODIOS</a></li>
-                <li> <a href="http://">NOSOTROS</a></li>
-                <li> <a href="http://">ENTREVISTAS</a></li>
-                <li> <a href="http://">TÓPICOS</a></li>
+                <li> <a href="#about-us">NOSOTROS</a></li>
+                <li> <a href="#interview">ENTREVISTAS</a></li>
+                <li> <a href="#topics">TÓPICOS</a></li>
             </ul>
         </nav>
     </header>
@@ -39,25 +39,28 @@
     </div>
 
     <section class="episodes" id="episodes">
-        <h2 class="ep">Episodios</h2>
         <div class="episodes-spotify">
-            <iframe src="https://open.spotify.com/embed/show/2ySVrxGkN6n6frMTo9Nsrt" width="45%" height="232"
-                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div>
+                <h2 class="ep">Episodios</h2>
+            </div>
+            <div class="spotify">
+                <iframe src="https://open.spotify.com/embed/show/2ySVrxGkN6n6frMTo9Nsrt" width="45%" height="232"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-            <iframe src="https://open.spotify.com/embed/show/4kYCRYJ3yK5DQbP5tbfZby" width="45%" height="232"
-                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/show/4kYCRYJ3yK5DQbP5tbfZby" width="45%" height="232"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-            <iframe src="https://open.spotify.com/embed/show/5JxcIaIkN8zx3Zy7yD9snv" width="45%" height="232"
-                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/show/5JxcIaIkN8zx3Zy7yD9snv" width="45%" height="232"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-            <iframe src="https://open.spotify.com/embed/show/2Iibd5A6R7mxkCm4NwNmUn" width="45%" height="232"
-                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/show/2Iibd5A6R7mxkCm4NwNmUn" width="45%" height="232"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
         </div>
     </section>
 
-    <section class="about-us">
+    <section class="about-us" id="about-us">
         <img src="assets/phone.png" alt="" width="457.6px" height="660px" class="imgPhone">
-
         <div class="p-y-h2">
             <h2 class="de-donde-venimos">
                 De dónde venimos
@@ -72,7 +75,7 @@
         </div>
     </section>
 
-    <section class="interview">
+    <section class="interview" id="interview">
         <h2 class="h2-interview">Invitadas/os estelares</h2>
         <div class="women">
             <img src="assets/grace-hopper.png" alt="grace-hopper">
@@ -85,17 +88,50 @@
         </div>
     </section>
 
-    <section class="topics">
+    <section class="topics" id="topics">
         <h2 class="topic-h2">Algunos de nuestros temas</h2>
-        <div class="remoto">
-            <img src="assets/icon1.svg" width="104px" height="104px">
-            <p>Trabajo remoto</p>
+        <div class="topics-container">
+            <div class="remoto topics-div">
+                <img src="assets/icon1.svg" width="104px" height="104px">
+                <p>Trabajo remoto</p>
+            </div>
+            <div class="programacion topics-div">
+                <img src="assets/icon2.svg">
+                <p>Repensando la<br> programación</p>
+            </div>
+            <div class="codigo topics-div">
+                <img src="assets/icon3.svg">
+                <p>Bases del código</p>
+            </div>
+            <div class="informatica topics-div">
+                <img src="assets/icon4.svg">
+                <p>Seguridad <br>informática</p>
+            </div>
         </div>
-        <div class="programacion"></div>
-        <div class="codigo"></div>
-        <div class="informatica"></div>
-        <p>hjhjh</p>
     </section>
+
+    <section class="last-container">
+        <div class="h2-but">
+            <h2 class="h2-last">¿Querés las últimas novedades?</h2>
+            <div class="buttom2">
+                <button type="submit" id="escucha-ep">ESCUCHÁ LOS EPISODIOS</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-p-social">
+            <div>
+                <p class="p-footer">© 2019— Hello blue pale dot</p>
+            </div>
+            <div class="icons-social">
+                <a href="#"><i class="fab fa-spotify"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
