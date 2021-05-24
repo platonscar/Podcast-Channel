@@ -20,6 +20,7 @@ header {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFFFFF;
 }
 nav {
     font-family: 'IBM Plex Mono', monospace;   
@@ -42,7 +43,9 @@ h1 {
     color: #060A24;
     font-size: 64px;
 }
-
+#menu-input {
+    display: none;
+}
 .container-principal {
     overflow: auto;
     overflow-x: hidden;
