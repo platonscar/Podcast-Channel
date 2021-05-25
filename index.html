@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,54 +14,55 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
     <title>Podcast</title>
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <img src="assets/logo.svg" alt="logo">
-        </div>
-        <!-- para menu hamburguesa -->
-            <input type="checkbox" name="menu" id="menu-input" />     
+        <div class="wrapper">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="logo">
+            </div>
+            <!-- para menu hamburguesa -->
+            <input type="checkbox" name="menu" id="menu-input" />
             <label for="menu-input" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
-            </label>         
-        <nav>
-            <ul class="menu-list">
-                <li> <a href="#episodes">EPISODIOS</a></li>
-                <li> <a href="#about-us">NOSOTROS</a></li>
-                <li> <a href="#interview">ENTREVISTAS</a></li>
-                <li> <a href="#topics">TÓPICOS</a></li>
-            </ul>
-        </nav>
+            </label>            
+                <ul class="menu-list">
+                    <li> <a href="#episodes">EPISODIOS</a></li>
+                    <li> <a href="#about-us">NOSOTROS</a></li>
+                    <li> <a href="#interview">ENTREVISTAS</a></li>
+                    <li> <a href="#topics">TÓPICOS</a></li>
+                </ul>            
+        </div>
     </header>
     <div class="container-principal">
         <div class="main1">
             <h1> Hello <span class="active">world</span> pale blue dot<span class="dot">.</span> </h1>
             <p class="text1">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos
                 episodios, todos los jueves cada 15 días.</p>
-            <button class="knowme" >CONOCE MÁS</button>
+            <button class="knowme">CONOCE MÁS</button>
         </div>
-    
+
         <section class="episodes" id="episodes">
-            <div class="episodes-spotify">                
-                <h2 class="ep">Episodios</h2>                
+            <div class="episodes-spotify">
+                <h2 class="ep">Episodios</h2>
                 <div class="spotify">
                     <iframe src="https://open.spotify.com/embed/show/2ySVrxGkN6n6frMTo9Nsrt" width="45%" height="232"
                         frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    
+
                     <iframe src="https://open.spotify.com/embed/show/4kYCRYJ3yK5DQbP5tbfZby" width="45%" height="232"
                         frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    
+
                     <iframe src="https://open.spotify.com/embed/show/5JxcIaIkN8zx3Zy7yD9snv" width="45%" height="232"
                         frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    
+
                     <iframe src="https://open.spotify.com/embed/show/2Iibd5A6R7mxkCm4NwNmUn" width="45%" height="232"
                         frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </section>
-    
+
         <section class="about-us" id="about-us">
             <img src="assets/phone.png" alt="img-phone" width="457.6px" height="660px" class="imgPhone">
             <div class="p-y-h2">
@@ -68,15 +70,17 @@
                     De dónde venimos
                 </h2>
                 <p class="p-about-us">
-                    Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                    Our posturings, our imagined self-importance, the delusion that we have some privileged position in
+                    the
                     Universe, are challenged by this point of pale light.
                 </p>
-                <p class="p-about-us">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in
+                <p class="p-about-us">Our planet is a lonely speck in the great enveloping cosmic dark. In our
+                    obscurity, in
                     all this
                     vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
             </div>
         </section>
-    
+
         <section class="interview" id="interview">
             <h2 class="h2-interview">Invitadas/os estelares</h2>
             <div class="women">
@@ -84,12 +88,11 @@
                 <img src="assets/Katie-Bouman.png" alt="Katie-Bouman">
                 <img src="assets/Margaret_Hamilton.png" alt="Margaret_Hamilton">
                 <img src="assets/Univac.png" alt="1950s">
-                <img src="assets/Computer.png"
-                    alt="">
+                <img src="assets/Computer.png" alt="">
                 <img src="assets/susan-kare.png" alt="susan-kare">
             </div>
         </section>
-    
+
         <section class="topics" id="topics">
             <h2 class="topic-h2">Algunos de nuestros temas</h2>
             <div class="topics-container">
@@ -111,7 +114,7 @@
                 </div>
             </div>
         </section>
-    
+
         <section class="last-container">
             <div class="h2-but">
                 <h2 class="h2-last">¿Querés las últimas novedades?</h2>
@@ -121,7 +124,7 @@
             </div>
         </section>
     </div>
-    
+
     <footer>
         <div class="footer-p-social">
             <div>
@@ -137,4 +140,5 @@
         </div>
     </footer>
 </body>
+
 </html>

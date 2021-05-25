@@ -8,30 +8,44 @@
         display: flex;
         flex-direction: column;       
         background-color: #0000EC;
-        /* display: none;        */
+        /* display: none; */
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
     }  
-    #hamburger {
+    #hamburger {         
         display: flex;
         flex-direction: column;
-      }
-      #hamburger span {
+        justify-content: space-between;
+    }
+    #hamburger span {
         background-color: #000000;
         width: 30px;
         height: 3px;
-        margin: 2px;
-      }    
-    
+        margin: 2px; 
+        transition: all 1s ease-in-out;               
+    }  
+    #menu-input:checked + #hamburger span:nth-of-type(1) {
+        transform: rotate(45deg);
+    }
+    ul li {
+        padding: 25px;
+    }  
     /* fin menu hamburguesa */
     header ul {
         background-color: #0000A3;
     }
+   
     ul a {
         color: white;                
-    } 
-   
+    }    
     h1 {       
         font-size: 36px;
         line-height: 42px;
+    }
+    .wrapper {
+        justify-content: space-between;
     }
     .main1 {
         margin-left: 20px;
@@ -146,6 +160,7 @@
         line-height: 22px;
     }
     .icons-social{
+        margin-top: 12px;
         width: 53%;
         justify-content: space-between;
     }
