@@ -6,16 +6,18 @@
     #menu-input:checked + #hamburger + .menu-list{
         display: flex;
         flex-direction: column;       
-        background-color: #0000EC;        
+        background-color: #0000EC;   
+        left: 0; /*para que vuelva a entrar y haga efecto con el transition*/
     }
     .menu-list {
-        display: none;
+        display: flex;
+        flex-direction: column;
         position: absolute;
         top: 80px;
-        left: 0;
+        left: -100%; /*es para que se oculte todo a la izquierda*/
         width: 100%;  
         overflow: hidden;
-        transition: width 0.3s ease-out; 
+        transition: all 0.3s ease-out; 
     }     
     #hamburger {         
         display: flex;
@@ -30,14 +32,14 @@
         transition: all 0.3s ease-in-out; 
         cursor: pointer;             
     }
-    #menu-input:checked ~ .menu-list {
+    #menu-input:checked + .menu-list {
         width: 100%;
     }
     #menu-input:checked + #hamburger span:nth-of-type(1) {
-        transform: rotate(-58deg) translateY(13px);    
+        transform: rotate(-45deg) translateY(10px);    
     }
     #menu-input:checked + #hamburger span:nth-of-type(3) {
-        transform: rotate(58deg) translateY(-13px);
+        transform: rotate(45deg) translateY(-10px);
     }
     #menu-input:checked + #hamburger span:nth-of-type(2) {
        opacity: 0;
