@@ -1,3 +1,3 @@
 # Landing-Podcast
- Proyecto landing page podcast para primer sprint de Acámica,
-<a href="https://platonscar.github.io/Podcast-Channel/">aqui!</a>
+ First sprint proyect from Acámica, Podcast channel landing page.
+<a href="https://platonscar.github.io/Podcast-Channel/">Here!</a>
