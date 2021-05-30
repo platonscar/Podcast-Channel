@@ -1,2 +1,2 @@
 # Landing-Podcast
- proyecto lading page de acamica
+ proyecto landing page para primer sprint de Acámica
